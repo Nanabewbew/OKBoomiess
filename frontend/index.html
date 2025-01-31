@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OKBoomies</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <h1>Welcome to OKBoomies</h1>
+    <div id="age-selection">
+      <label for="age-group">Select Your Age Group:</label>
+      <select id="age-group">
+        <option value="">--Choose an option--</option>
+        <option value="Boomers">Boomers</option>
+        <option value="Babies">Babies</option>
+      </select>
+      <button id="start-conversation">Start Conversation</button>
+    </div>
+
+    <div id="chat-section" style="display: none;">
+      <div id="chat-box"></div>
+      <input type="text" id="user-input" placeholder="Type your message here..." />
+      <button id="send-message">Send</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
